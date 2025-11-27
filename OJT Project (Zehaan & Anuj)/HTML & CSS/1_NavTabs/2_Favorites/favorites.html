@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookHub</title>
+
+    <link rel="stylesheet" href="favorites.css"/>
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /> 
+
+</head>
+
+<body>
+
+    <!-- Top Navigation + Greeting + Search -->
+    <header>
+        <div class="navbar">
+
+
+            <div class="logo">
+                <a class="logo-container" href="/HTML & CSS/index.html">
+                    <img class="logo-icon"
+                        src="https://media.baamboozle.com/uploads/images/802824/1667274482_89642_gif-url.gif">
+                    CookHub &nbsp
+                </a>
+            </div>
+
+
+            <nav class="nav-tab-container">
+                <div><a href="/HTML & CSS/index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home</a>
+                </div>
+
+                <div class="active"><a href="/HTML & CSS/1_NavTabs/2_Favorites/favorites.html">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Favorites</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/3_Shopping List/shopping List.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shopping List</a>
+                </div>
+            </nav>
+
+
+            <div class="noti-prof-container">
+                <div class="notifications active">
+                    <a href="/HTML & CSS/1_NavTabs/4_Notification/notification.html"><span class="material-icons">notifications_none</span></a>
+                </div>
+                <div class="profile">
+                    <a href="/HTML & CSS/1_NavTabs/5_Profile/profile.html"><i class="fa-solid fa-user login-fixed"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <section class="greet-search-container">
+            <p class="greet-text">Hi Zehaan 👋</p>
+            <p class="ask">What do you want to cook today ?</p>
+
+
+
+            <div class="search-bar-container">
+                <span class="material-icons search-icon">search</span>
+                <input type="text" placeholder="Search Recipe for Cooking" />
+
+                <a href="#"><span class="material-icons filter-icon">tune</span></a>
+            </div>
+        </section>
+
+    </header>
+
+
+    <!-- Category Tabs -->
+    <div class="categories-container">
+        <div class="categories">
+            <button class="active"><a href="/HTML & CSS/index.html">All</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/1_Breakfast/breakfast.html">Breakfast</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/2_Lunch/lunch.html">Lunch</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/3_Snacks/snacks.html">Snacks</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/4_Dinner/dinner.html">Dinner</a></button>
+        </div>
+    </div>
+
+
+    <!-- Popular Recipes Section -->
+    <div class="popular">
+        <h2>Your Favorite Recipes</h2>
+        <p class="subtext">Recipes you've saved for later.</p>
+    </div>
+
+    <section>
+        <div class="popular-card-container">
+            <!-- Card 1 -->
+            <div class="popular-card">
+                <a href="#">
+                    <div class="img-box"></div>
+                </a>
+                <div class="fav-bg"><a href="#"><svg class="fav-icon" xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="black">
+                            <path
+                                d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+                        </svg></a></div>
+                <h3>Creamy Tomato Basil Soup</h3>
+                <p>
+                    This comforting soup is made with fresh tomatoes, aromatic basil...
+                </p>
+                <a href="#"><button>See Full Details</button></a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="popular-card">
+                <a href="#">
+                    <div class="img-box"></div>
+                </a>
+                <div class="fav-bg"><a href="#"><svg class="fav-icon" xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="black">
+                            <path
+                                d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+                        </svg></a></div>
+                <h3>Spicy Shrimp Tacos</h3>
+                <p>
+                    These tacos are loaded with juicy shrimp that have been marinated...
+                </p>
+                <a href="#"><button>See Full Details</button></a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="popular-card">
+                <a href="#">
+                    <div class="img-box"></div>
+                </a>
+                <div class="fav-bg"><a href="#"><svg class="fav-icon" xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="black">
+                            <path
+                                d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+                        </svg></a></div>
+                <h3>Chicken Parmesan</h3>
+                <p>
+                    This classic Italian dish features tender chicken breasts coated
+                    in...
+                </p>
+                <a href="#"><button>See Full Details</button></a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="popular-card">
+                <a href="#">
+                    <div class="img-box"></div>
+                </a>
+                <div class="fav-bg"><a href="#"><svg class="fav-icon" xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="black">
+                            <path
+                                d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+                        </svg></a></div>
+                <h3>Chocolate Chip Cookies</h3>
+                <p>
+                    These cookies are the perfect balance of chewy and crispy...
+                </p>
+                <a href="#"><button>See Full Details</button></a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
