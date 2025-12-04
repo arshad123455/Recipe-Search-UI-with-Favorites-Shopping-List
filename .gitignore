@@ -1,0 +1,192 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-debug.log*
+*.npm
+bower_components/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===========================
+# IDE & Editor Files
+# ===========================
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===========================
+# OS Files
+# ===========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ===========================
+# Build Output & Dist
+# ===========================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vite/
+*.tsbuildinfo
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+*.log.*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===========================
+# Testing & Coverage
+# ===========================
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+.coverage/
+htmlcov/
+.tox/
+.pytest_cache/
+.hypothesis/
+
+# ===========================
+# Temporary Files
+# ===========================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*.orig
+
+# ===========================
+# Python (if used)
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# ===========================
+# API Keys & Secrets
+# ===========================
+*.pem
+*.key
+*.cert
+secrets.json
+credentials.json
+
+# ===========================
+# Miscellaneous
+# ===========================
+# Backup files
+*~
+*.orig
+*.rej
+
+# Compressed files (if not part of project)
+# *.zip
+# *.tar.gz
+# *.rar
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Service worker cache
+sw.js.map
+workbox-*.js
+workbox-*.js.map

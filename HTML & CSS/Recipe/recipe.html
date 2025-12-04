@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookHub</title>
+
+    <link rel="stylesheet" href="recipe.css" />
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_backspace" />
+
+</head>
+
+<body>
+
+    <!-- Top Navigation + Greeting + Search -->
+    <header>
+        <div class="navbar">
+
+
+            <div class="logo">
+                <a class="logo-container" href="/HTML & CSS/index.html">
+                    <img class="logo-icon"
+                        src="https://media.baamboozle.com/uploads/images/802824/1667274482_89642_gif-url.gif">
+                    CookHub &nbsp
+                </a>
+            </div>
+
+
+            <nav class="nav-tab-container">
+                <div class="active"><a href="/HTML & CSS/index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/2_Favorites/favorites.html">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Favorites</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/3_Shopping List/shopping List.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shopping List</a>
+                </div>
+            </nav>
+
+
+            <div class="noti-prof-container">
+                <div class="notifications active">
+                    <a href="/HTML & CSS/1_NavTabs/4_Notification/notification.html"><span
+                            class="material-icons">notifications_none</span></a>
+                </div>
+                <div class="profile">
+                    <a href="/HTML & CSS/1_NavTabs/5_Profile/profile.html"><i
+                            class="fa-solid fa-user login-fixed"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Open Recipes Section -->
+
+    <div class="back-fav-container">
+        <a href="/HTML & CSS/index.html">
+            <div class="back"><span class="material-symbols-outlined">keyboard_backspace</span>Back To Recipe</div>
+        </a>
+
+        <!-- <a href="#"><div class="fav1"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg> Add To Favorite</div></a> -->
+
+    </div>
+
+    <section>
+        <div class="open-card-container">
+            <!-- Card 1 -->
+            <div class="open-card">
+                <a href="#">
+                    <div class="img-box" id="recipe-image"></div>
+                </a>
+                <!-- <div class="fav-bg"><a href="#"><svg class="fav-icon" xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="black">
+                            <path
+                                d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+                        </svg></a></div> -->
+                <h3 id="recipe-title">Name</h3>
+                <p id="recipe-summary">
+                    About...
+                </p>
+            </div>
+        </div>
+
+        <section>
+            <div class="ingredients-instructions-container">
+
+                <div class="ingredients-instructions">
+
+                    <div class="ingredients">
+                        <h3>Ingredients</h3>
+                        <ul id="recipe-ingredients">
+                            <!-- Ingredients will be populated here -->
+                        </ul>
+                        <div><button id="add-to-shopping-list-btn">Add to Shopping List</button></div>
+                    </div>
+
+                    <div class="instructions">
+                        <h3>Instructions</h3>
+                        <div id="recipe-instructions">
+                            <!-- Instructions will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <script src="../1_NavTabs/3_Shopping List/shopping-list.js"></script>
+    <script src="recipe-details.js"></script>
+</body>
+
+</html>

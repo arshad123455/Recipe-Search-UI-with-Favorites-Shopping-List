@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookHub</title>
+
+    <link rel="stylesheet" href="shopping List.css" />
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_backspace" />
+
+</head>
+
+<body>
+
+    <!-- Top Navigation + Greeting + Search -->
+    <header>
+        <div class="navbar">
+
+
+            <div class="logo">
+                <a class="logo-container" href="/HTML & CSS/index.html">
+                    <img class="logo-icon"
+                        src="https://media.baamboozle.com/uploads/images/802824/1667274482_89642_gif-url.gif">
+                    CookHub &nbsp
+                </a>
+            </div>
+
+
+            <nav class="nav-tab-container">
+                <div><a href="/HTML & CSS/index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/2_Favorites/favorites.html">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Favorites</a>
+                </div>
+
+                <div class="active"><a href="/HTML & CSS/1_NavTabs/3_Shopping List/shopping List.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shopping List</a>
+                </div>
+            </nav>
+
+
+            <div class="noti-prof-container">
+                <div class="notifications active">
+                    <a href="/HTML & CSS/1_NavTabs/4_Notification/notification.html"><span
+                            class="material-icons">notifications_none</span></a>
+                </div>
+                <div class="profile">
+                    <a href="/HTML & CSS/1_NavTabs/5_Profile/profile.html"><i
+                            class="fa-solid fa-user login-fixed"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Open Recipes Section -->
+
+    <div class="back-container">
+        <a href="/HTML & CSS/index.html">
+            <div class="back"><span class="material-symbols-outlined">keyboard_backspace</span>Back To Home</div>
+        </a>
+    </div>
+
+    <section>
+        <div class="open-notification-container">
+            <!-- Card 1 -->
+            <div class="open-notification">
+                <h3>Shopping List</h3>
+                <div id="shopping-list-container">
+                    <!-- Items will be populated here -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="shopping-list.js"></script>
+</body>
+
+</html>

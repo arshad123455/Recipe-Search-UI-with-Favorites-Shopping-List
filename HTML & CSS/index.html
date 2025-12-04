@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookHub</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Top Navigation + Greeting + Search -->
+    <header>
+        <div class="navbar">
+
+
+            <div class="logo">
+                <a class="logo-container" href="/HTML & CSS/index.html">
+                    <img class="logo-icon"
+                        src="https://media.baamboozle.com/uploads/images/802824/1667274482_89642_gif-url.gif">
+                    CookHub &nbsp
+                </a>
+            </div>
+
+
+            <nav class="nav-tab-container">
+                <div class="active"><a href="/HTML & CSS/index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/2_Favorites/favorites.html">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Favorites</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/3_Shopping List/shopping List.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shopping List</a>
+                </div>
+            </nav>
+
+
+            <div class="noti-prof-container">
+                <div class="notifications active">
+                    <a href="/HTML & CSS/1_NavTabs/4_Notification/notification.html"><span
+                            class="material-icons">notifications_none</span></a>
+                </div>
+                <div class="profile">
+                    <a href="/HTML & CSS/1_NavTabs/5_Profile/profile.html"><i
+                            class="fa-solid fa-user login-fixed"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <section class="greet-search-container">
+            <p class="greet-text">Hi Zehaan 👋</p>
+            <p class="ask">What do you want to cook today ?</p>
+
+
+
+            <div class="search-bar-container">
+                <span class="material-icons search-icon">search</span>
+                <input type="text" placeholder="Search Recipe for Cooking" />
+
+                <!-- <a href="#"><span class="material-icons filter-icon">tune</span></a> -->
+            </div>
+        </section>
+
+    </header>
+
+
+    <!-- Category Tabs -->
+    <!-- <div class="categories-container">
+        <div class="categories">
+            <button class="active"><a href="/HTML & CSS/index.html">All</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/1_Breakfast/breakfast.html">Breakfast</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/2_Lunch/lunch.html">Lunch</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/3_Snacks/snacks.html">Snacks</a></button>
+            <button><a href="/HTML & CSS/2_CategoryTabs/4_Dinner/dinner.html">Dinner</a></button>
+        </div>
+    </div> -->
+
+
+    <!-- Popular Recipes Section -->
+    <div class="popular">
+        <h2>Popular Recipes You Can't Miss</h2>
+        <p class="subtext">From comfort food classics to exotic flavors, our featured recipes are sure to impress.</p>
+    </div>
+
+    <section>
+        <div class="popular-card-container"></div>
+    </section>
+
+
+
+    <!-- Recommended Recipes Section -->
+    <div class="recommended">
+        <h2>Recommended Recipes</h2>
+        <!-- <p class="recommended-subtext">From comfort food classics to exotic flavors, our featured recipes are sure to impress.</p> -->
+    </div>
+
+    <section>
+        <div class="recommended-card-container"></div>
+    </section>
+
+    <!-- <footer><button>See More</button></footer> -->
+    
+    <script src="api.js"></script>
+</body>
+
+</html>

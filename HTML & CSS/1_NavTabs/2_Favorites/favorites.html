@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CookHub</title>
+
+    <link rel="stylesheet" href="favorites.css" />
+
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Top Navigation + Greeting + Search -->
+    <header>
+        <div class="navbar">
+
+
+            <div class="logo">
+                <a class="logo-container" href="/HTML & CSS/index.html">
+                    <img class="logo-icon"
+                        src="https://media.baamboozle.com/uploads/images/802824/1667274482_89642_gif-url.gif">
+                    CookHub &nbsp
+                </a>
+            </div>
+
+
+            <nav class="nav-tab-container">
+                <div><a href="/HTML & CSS/index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home</a>
+                </div>
+
+                <div class="active"><a href="/HTML & CSS/1_NavTabs/2_Favorites/favorites.html">
+                        <i class="fa-solid fa-bookmark"></i>
+                        Favorites</a>
+                </div>
+
+                <div><a href="/HTML & CSS/1_NavTabs/3_Shopping List/shopping List.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shopping List</a>
+                </div>
+            </nav>
+
+
+            <div class="noti-prof-container">
+                <div class="notifications active">
+                    <a href="/HTML & CSS/1_NavTabs/4_Notification/notification.html"><span
+                            class="material-icons">notifications_none</span></a>
+                </div>
+                <div class="profile">
+                    <a href="/HTML & CSS/1_NavTabs/5_Profile/profile.html"><i
+                            class="fa-solid fa-user login-fixed"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <!-- Popular Recipes Section -->
+    <div class="popular">
+        <h2>Your Favorite Recipes</h2>
+        <p class="subtext">You haven't saved any favorite recipes yet. Start browsing to find recipes you love!.</p>
+    </div>
+
+    <section>
+        <div class="popular-card-container" id="favorites-container">
+            <!-- Favorites will be populated here -->
+        </div>
+    </section>
+    <script src="favorites.js"></script>
+</body>
+
+</html>
