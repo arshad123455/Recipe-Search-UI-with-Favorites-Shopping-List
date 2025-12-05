@@ -4,6 +4,6 @@
   command = "# no build command needed for static site"
 
 [[redirects]]
-  from = "/*"
+  from = "HTML & CSS/*"
   to = "HTML & CSS/index.html"
   status = 200
