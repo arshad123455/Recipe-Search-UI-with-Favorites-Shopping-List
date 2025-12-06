@@ -136,7 +136,7 @@ function createRecipeCard(recipe, className) {
 
     // Image
     const imgLink = document.createElement('a');
-    imgLink.href = `HTML,CSS & JavaScript/Recipe/recipe.html?id=${recipe.id}`; // Dynamic link with ID
+    imgLink.href = `HTML & CSS/Recipe/recipe.html?id=${recipe.id}`; // Dynamic link with ID
     const imgBox = document.createElement('div');
     imgBox.classList.add('img-box');
     imgBox.style.backgroundImage = `url(${recipe.image})`;
@@ -184,7 +184,7 @@ function createRecipeCard(recipe, className) {
 
     // Button
     const btnLink = document.createElement('a');
-    btnLink.href = `HTML,CSS & JavaScript/Recipe/recipe.html?id=${recipe.id}`;
+    btnLink.href = `HTML & CSS/Recipe/recipe.html?id=${recipe.id}`;
     const btn = document.createElement('button');
     btn.textContent = 'See Full Details';
     btnLink.appendChild(btn);
